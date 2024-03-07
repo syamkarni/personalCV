@@ -1,0 +1,160 @@
+{
+    "personal": {
+      "name" : "Hello",
+      "email" : "h@h.com",
+      "phone" : "mobile",
+      "url": "https://johndoe.com",
+      "location": {
+        "city": "New York",
+        "region": "New York",
+        "postalCode": "1234",
+        "country": "United States of America"
+      },
+  
+    "profiles": [
+        {
+          "network": "LinkedIn",
+          "username": "John Doe",
+          "url": "https://linkedin.com/in/johndoe"
+        },
+        {
+          "network": "GitHub",
+          "username": "johndoe",
+          "url": "https://github.com/johndoe"
+        }
+      ]
+  },
+  "work" : [
+    {
+        "organization": "National Aeronautics and Space Administration - Jet Propulsion Laboratory",
+        "url": "https://example.com",
+        "location": "Pasadena, California",
+        "positions": [
+          {
+            "position": "Senior Developer",
+            "startDate": "2016-02-19",
+            "endDate": "2019-05-31",
+            "highlights": [
+              "This being the theory I hold, why need I be afraid of not being able to reconcile it with the case of my ancestors?",
+              "Spearheaded the development of a mission-critical software module, resulting in a 30% improvement in data processing efficiency for the Mars Rover project.",
+              "Led a cross-functional team in implementing agile methodologies, reducing project timelines by 20% and ensuring timely delivery of software updates for multiple space exploration missions."
+            ]
+          }
+        ]
+      }
+  ],
+  "about" : "summary man",
+  
+  "education" : [
+    {
+      "institution" : "clg1",
+      "url" : "234",
+      "area" : "cse",
+      "studyType" : "studytype",
+      "startDate": "2017-08-01",
+      "endDate": "2021-06-30",
+      "location": "City of London, United Kingdom"
+    },
+    {
+      "institution" : "clg1",
+      "url" : "234",
+      "area" : "cse",
+      "studyType" : "studytype",
+      "startDate": "2017-08-01",
+      "endDate": "2021-06-30",
+      "location": "City of London, United Kingdom"
+    }
+  ],
+  "affiliations": [
+      {
+        "organization": "White Hat Hackers Association",
+        "position": "Vice President for Internal Affairs",
+        "location": "Cambridge, United Kingdom",
+        "url": "https://example.com",
+        "startDate": "2020-05-30",
+        "endDate": "2021-05-30",
+        "highlights": [
+          "But I must explain to you how all this mistaken idea of reprobating pleasure and extolling pain arose.",
+          "But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?",
+          "Can you then suppose that those heroic men performed their famous deeds without any motive at all?"
+        ]
+      },
+      {
+        "organization": "London Bridge Toastmasters Club",
+        "position": "Member",
+        "location": "City of London, United Kingdom",
+        "url": "",
+        "startDate": "2022-06-15",
+        "endDate": "2023-06-30",
+        "highlights": [
+          "Won Champion in the Division A District X Speech Evaluation Contest of Toastmasters International",
+          "Promising Toastmaster of the Year (PY 2022-2023)",
+          "Tell me, pray, what explanation do you put upon their actions?"
+        ]
+      }
+    ],
+  "projects" : [
+    {
+      "name": "name",
+      "url" : "url",
+      "affiliation" : "",
+      "startDate" : "date",
+      "endDate" : "date",
+      "highlights": [
+          "Won Champion in the Division A District X Speech Evaluation Contest of Toastmasters International",
+          "Promising Toastmaster of the Year (PY 2022-2023)",
+          "Tell me, pray, what explanation do you put upon their actions?"
+        ]
+    }
+  ],
+  "skills": [
+      {"category" : "Soft Skills",
+        "skills" : ["Public Speaking", "Debating", "Communication", "Critical Thinking", "Leadership", "Persuasive Writing", "Technical Writing"]}
+      ],
+    "languages": [
+      {
+        "language": "English",
+        "fluency": "Native speaker"
+      },
+      {
+        "language": "German",
+        "fluency": "Native speaker"
+      },
+      {
+        "language": "Japanese",
+        "fluency": "Basic proficiency"
+      }
+    ],
+    "interests": ["Video Games", "Anime", "Reading Non-fiction", "Classical and Original Soundtrack Music"],
+  
+  "vdata": [
+      {
+        "organization": "White Hat Hackers Association",
+        "position": "Vice President for Internal Affairs",
+        "location": "Cambridge, United Kingdom",
+        "url": "https://example.com",
+        "startDate": "2020-05-30",
+        "endDate": "2021-05-30",
+        "highlights": [
+          "But I must explain to you how all this mistaken idea of reprobating pleasure and extolling pain arose.",
+          "But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?",
+          "Can you then suppose that those heroic men performed their famous deeds without any motive at all?"
+        ]
+      },
+      {
+        "organization": "London Bridge Toastmasters Club",
+        "position": "Member",
+        "location": "City of London, United Kingdom",
+        "url": "",
+        "startDate": "2022-06-15",
+        "endDate": "2023-06-30",
+        "highlights": [
+          "Won Champion in the Division A District X Speech Evaluation Contest of Toastmasters International",
+          "Promising Toastmaster of the Year (PY 2022-2023)",
+          "Tell me, pray, what explanation do you put upon their actions?"
+        ]
+      }
+    ]
+  
+  
+  }
