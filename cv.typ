@@ -152,8 +152,11 @@
       block(width: 100%, breakable: isbreakable)[
                 // line 1: institution and location
                 #if edu.url != none [
+                  #if edu.location != none [
                     *#link(edu.url)[#edu.institution]* #h(1fr) *#edu.location* \
-                ] else [
+                  ] else[
+                    *#link(edu.url)[#edu.institution]* #h(1fr) \
+                ]] else [
                     *#edu.institution* #h(1fr) *#edu.location* \
                 ]
                 // line 2: degree and date
@@ -185,7 +188,7 @@
                 ]
                 // line 2: position and date
                 #text(style: "italic")[#org.position] #h(1fr)
-                #start #sym.dash.en #end \
+                #org.startDate #sym.dash.en #org.endDate \
                 // highlights or description
                 #if org.highlights != none {
                     for hi in org.highlights [
@@ -208,12 +211,16 @@
             block(width: 100%, breakable: isbreakable)[
                 // line 1: project name
                 #if project.url != none [
-                    *#link(project.url)[#project.name]* #h(1fr) #project.startDate #sym.dash.en #project.endDate \
+                    *#link(project.url)[#project.name]* #h(1fr)
+                    //#project.startDate #sym.dash.en #project.endDate 
+                    \
                 ] else [
                     *#project.name* #h(1fr) #project.startDate #sym.dash.en #project.endDate \
                 ]
                 // line 2: organization and date
+                #if project.affiliation!=none [
                 #text(style: "italic")[#project.affiliation]  
+              ]
                 // summary or description
                 #for hi in project.highlights [
                     - #eval(hi, mode: "markup")
@@ -222,7 +229,7 @@
         }
     ]}
 }
-#let cvskills(info, isbreakable: true) = {
+#let cvskills(info, isbreakable: false) = {
     if (info.languages != none) or (info.skills != none) or (info.interests != none) {block(breakable: isbreakable)[
         == Skills, Languages, Interests
         #if (info.languages != none) [
@@ -246,7 +253,7 @@
 #let cvvdata(info, isbreakable: true) = {
     if info.vdata != none {block[
         == VOLUNTEER EXPERIENCE
-        #for org in info.affiliations {
+        #for org in info.vdata {
             // parse ISO date strings into datetime objects
            // let start = utils.strpdate(org.startDate)
             //let end = utils.strpdate(org.endDate)
@@ -261,11 +268,15 @@
                 ]
                 // line 2: position and date
                 #text(style: "italic")[#org.position] #h(1fr)
-                #start #sym.dash.en #end \
+                #if org.endDate != none [
+                #org.startDate #sym.dash.en #org.endDate \
+              ] else[
+                #org.startDate \
+              ]
                 // highlights or description
                 #if org.highlights != none {
                     for hi in org.highlights [
-                        - #eval(hi, mode: "markup")
+                         #eval(hi, mode: "markup")
                     ]
                 } else {}
             ]
@@ -279,7 +290,8 @@
         bottom + right,
         block[
             #set text(size: 5pt, font: "Consolas", fill: silver)
-            \*This document was last updated on #datetime.today().display("[year]-[month]-[day]") using #strike[LaTeX] #link("https://typst.app")[Typst].
+           \*This document was last updated on #datetime.today().display("[year]-[month]-[day]") using #link("https://typst.app")[Typst].
+            
         ]
     )
 }

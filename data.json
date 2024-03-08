@@ -1,160 +1,205 @@
 {
-    "personal": {
-      "name" : "Hello",
-      "email" : "h@h.com",
-      "phone" : "mobile",
-      "url": "https://johndoe.com",
-      "location": {
-        "city": "New York",
-        "region": "New York",
-        "postalCode": "1234",
-        "country": "United States of America"
-      },
-  
-    "profiles": [
-        {
-          "network": "LinkedIn",
-          "username": "John Doe",
-          "url": "https://linkedin.com/in/johndoe"
-        },
-        {
-          "network": "GitHub",
-          "username": "johndoe",
-          "url": "https://github.com/johndoe"
-        }
-      ]
-  },
-  "work" : [
-    {
-        "organization": "National Aeronautics and Space Administration - Jet Propulsion Laboratory",
-        "url": "https://example.com",
-        "location": "Pasadena, California",
-        "positions": [
-          {
-            "position": "Senior Developer",
-            "startDate": "2016-02-19",
-            "endDate": "2019-05-31",
-            "highlights": [
-              "This being the theory I hold, why need I be afraid of not being able to reconcile it with the case of my ancestors?",
-              "Spearheaded the development of a mission-critical software module, resulting in a 30% improvement in data processing efficiency for the Mars Rover project.",
-              "Led a cross-functional team in implementing agile methodologies, reducing project timelines by 20% and ensuring timely delivery of software updates for multiple space exploration missions."
-            ]
-          }
-        ]
-      }
-  ],
-  "about" : "summary man",
-  
-  "education" : [
-    {
-      "institution" : "clg1",
-      "url" : "234",
-      "area" : "cse",
-      "studyType" : "studytype",
-      "startDate": "2017-08-01",
-      "endDate": "2021-06-30",
-      "location": "City of London, United Kingdom"
+  "personal": {
+    "name" : "Uppalapati Syam Karni Datta",
+    "email" : "syamkarni@gmail.com",
+    "phone" : "+91 7331110012",
+    "url": "https://syamkarni.github.io",
+    "location": {
+      "city": "Chennai",
+      "region": "Tamil Nadu",
+      "postalCode": "603203",
+      "country": "India"
     },
-    {
-      "institution" : "clg1",
-      "url" : "234",
-      "area" : "cse",
-      "studyType" : "studytype",
-      "startDate": "2017-08-01",
-      "endDate": "2021-06-30",
-      "location": "City of London, United Kingdom"
-    }
-  ],
-  "affiliations": [
+
+  "profiles": [
       {
-        "organization": "White Hat Hackers Association",
-        "position": "Vice President for Internal Affairs",
-        "location": "Cambridge, United Kingdom",
-        "url": "https://example.com",
-        "startDate": "2020-05-30",
-        "endDate": "2021-05-30",
-        "highlights": [
-          "But I must explain to you how all this mistaken idea of reprobating pleasure and extolling pain arose.",
-          "But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?",
-          "Can you then suppose that those heroic men performed their famous deeds without any motive at all?"
-        ]
+        "network": "LinkedIn",
+        "username": "syamkanri",
+        "url": "https://www.linkedin.com/in/dattau/"
       },
       {
-        "organization": "London Bridge Toastmasters Club",
-        "position": "Member",
-        "location": "City of London, United Kingdom",
-        "url": "",
-        "startDate": "2022-06-15",
-        "endDate": "2023-06-30",
-        "highlights": [
-          "Won Champion in the Division A District X Speech Evaluation Contest of Toastmasters International",
-          "Promising Toastmaster of the Year (PY 2022-2023)",
-          "Tell me, pray, what explanation do you put upon their actions?"
-        ]
-      }
-    ],
-  "projects" : [
-    {
-      "name": "name",
-      "url" : "url",
-      "affiliation" : "",
-      "startDate" : "date",
-      "endDate" : "date",
-      "highlights": [
-          "Won Champion in the Division A District X Speech Evaluation Contest of Toastmasters International",
-          "Promising Toastmaster of the Year (PY 2022-2023)",
-          "Tell me, pray, what explanation do you put upon their actions?"
-        ]
-    }
-  ],
-  "skills": [
-      {"category" : "Soft Skills",
-        "skills" : ["Public Speaking", "Debating", "Communication", "Critical Thinking", "Leadership", "Persuasive Writing", "Technical Writing"]}
-      ],
-    "languages": [
-      {
-        "language": "English",
-        "fluency": "Native speaker"
-      },
-      {
-        "language": "German",
-        "fluency": "Native speaker"
-      },
-      {
-        "language": "Japanese",
-        "fluency": "Basic proficiency"
-      }
-    ],
-    "interests": ["Video Games", "Anime", "Reading Non-fiction", "Classical and Original Soundtrack Music"],
-  
-  "vdata": [
-      {
-        "organization": "White Hat Hackers Association",
-        "position": "Vice President for Internal Affairs",
-        "location": "Cambridge, United Kingdom",
-        "url": "https://example.com",
-        "startDate": "2020-05-30",
-        "endDate": "2021-05-30",
-        "highlights": [
-          "But I must explain to you how all this mistaken idea of reprobating pleasure and extolling pain arose.",
-          "But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?",
-          "Can you then suppose that those heroic men performed their famous deeds without any motive at all?"
-        ]
-      },
-      {
-        "organization": "London Bridge Toastmasters Club",
-        "position": "Member",
-        "location": "City of London, United Kingdom",
-        "url": "",
-        "startDate": "2022-06-15",
-        "endDate": "2023-06-30",
-        "highlights": [
-          "Won Champion in the Division A District X Speech Evaluation Contest of Toastmasters International",
-          "Promising Toastmaster of the Year (PY 2022-2023)",
-          "Tell me, pray, what explanation do you put upon their actions?"
-        ]
+        "network": "GitHub",
+        "username": "syamkarni",
+        "url": "https://github.com/syamkarni"
       }
     ]
-  
-  
+},
+"work" : [
+  {
+      "organization": "Instrumentation and Automation Solutions",
+      "url": "https://example.com",
+      "location": "Visakhapatnam, AP",
+      "positions": [
+        {
+          "position": "Summer Intern",
+          "startDate": "May 2023",
+          "endDate": "July 2023",
+          "highlights": [
+            "Proficiently operated specialized software that was specifically designed for automatic calibration of instruments within industrial settings",
+            "Personally executed calibration procedures on select instruments.",
+            "Collaborated closely with the test bench team, gaining hands-on experience in working with testing setups and equipment.",
+            "Demonstrated web development skills on the company's official website.",
+            "Had the privilege to test and operate pivotal software for India's groundbreaking implementation of 21 CFR Part 11 auto pressure and temperature calibration at Laurus Laboratories."
+          ]
+        }
+      ]
+    },
+    {
+      "organization": "Indian Institute of Technology Madras",
+      "url": "https://example.com",
+      "location": "Chennai, AP",
+      "positions": [
+        {
+          "position": "Teaching Assistant",
+          "startDate": "December 2023",
+          "endDate": "January 2024",
+          "highlights": [
+            "As a Teaching Assistant in Computer Science at IIT Madras, I specialized in guiding students from the fundamentals of C programming through to advanced topics like file handling.",
+            "Developed and implemented a series of progressive assignments in C programming.",
+            "Provided personalized mentorship to students struggling with complex programming concepts.",
+            "Created comprehensive exam materials that accurately assessed student understanding of key concepts in C programming.",
+            "Authored a set of detailed lecture notes and supplementary learning resources."
+          ]
+        }
+      ]
+    }
+],
+"about" : "I'm a passionate cybersecurity and data science enthusiast, deeply interested in collaborating on projects and engaging in research endeavors. I'm eager to apply my skills and expertise to foster innovation and make meaningful contributions in these evolving domains.",
+
+"education" : [
+  {
+    "institution" : "SRM Institute of Science and Technology",
+    "url" : "234",
+    "area" : "CSE with specialization in Cyber Security",
+    "studyType" : "B. Tech",
+    "startDate": "2021",
+    "endDate": "2025",
+    "location": "Chennai,TN"
+  },
+  {
+    "institution" : "Indian Institute of Technology Madras",
+    "url" : "234",
+    "area" : "Data Science and Programming",
+    "studyType" : "B. Sc.",
+    "startDate": "2021",
+    "endDate": "2026",
+    "location": ""
   }
+],
+"affiliations": [
+    {
+      "organization": "MUNSOC",
+      "position": "Technical Member",
+      "location": "SRMIST",
+      "url": "https://example.com",
+      "startDate": "August 2022",
+      "endDate": "Present",
+      "highlights": [
+        "Played a pivotal role in identifying and rectifying website bugs, ensuring a smooth user experience.",
+        "Orchestrated a series of diligence meetings ensuring effective communication and collaboration among team members"
+      ]
+    },
+    {
+      "organization": "Paradox",
+      "position": "Core Member",
+      "location": "IITM",
+      "url": "",
+      "startDate": "July 2023",
+      "endDate": "Present",
+      "highlights": [
+        "Responsible for creating visually appealing posters and promotions for the event.",
+        "Engaged in cross-functional communication to ensure seamless communication. Coordination between design, content, and marketing efforts."
+      ]
+    }
+  ],
+"projects" : [
+  {
+    "name": "Smart Basket",
+    "url" : "url",
+    "affiliation" : "Online Grocery System application",
+    "startDate" : "date",
+    "endDate" : "date",
+    "highlights": [
+        "Developed an Online Grocery Store System using various technologies and tools such as Jinja2, SQLite3, Flask, HTML, and SQLAlchemy. The project involved several key components and tasks",
+        "Designed and implemented a database schema using SQLAlchemy for efficient data storage, integrated SQLite3 for managing product information, customer details, and order history",
+        "Created user-friendly HTML templates with Jinja2 to enable customers to browse, add items to the cart, and place orders.",
+        "Developed the back-end logic using Flask, handling user interactions, shopping cart functionality, and order processing.",
+        "Implemented secure user authentication, data validation, and performance optimization."
+      ]
+  },
+  {
+    "name": "AI-Powered Chatbot and Data Integration",
+    "url" : "url",
+    "affiliation" : "",
+    "startDate" : "date",
+    "endDate" : "date",
+    "highlights": [
+        "This project exemplifies the integration of cutting-edge AI technologies, featuring LangChain for NLP processing, OpenAI's GPT-3.5, and Gradio for web interface development. It demonstrates expertise in creating a sophisticated, user-friendly AI chatbot with secure and efficient deployment practices",
+        "Integrated LangChain with OpenAI's GPT-3.5 and Gradio, demonstrating advanced NLP processing and user-friendly web interface development.",
+        "Developed custom chatbot functionality, utilizing tailored prompt templates for specific user interactions and queries.",
+        "Implemented secure API key management, using environment variables for efficient and secure handling of sensitive data.",
+        "Deployed the project on Hugging Face, showcasing skills in cloud-based application deployment and accessibility."
+      ]
+  }
+],
+"skills": [
+    {"category" : "Soft Skills",
+      "skills" : ["Public Speaking", "Debating", "Communication", "Critical Thinking", "Leadership", "Persuasive Writing", "Technical Writing"]},
+      {"category" : "Web Technologies",
+      "skills" : ["HTML", "CSS", "Vue.js", "Jinja2", "Celery", "AWS"]},
+      {"category" : "Cyber Security",
+      "skills" : ["Linux", "Web Pentesting", "Network Security"]},
+      {"category" : "Data Science",
+      "skills" : ["Machine learning", "Web Scrapping", "Probability and Statistics", "Real Analysis"]},
+      {"category" : "Tools & Libraries",
+      "skills" : ["Matplotlib", "NumPy", "Pandas", "git", "Flask", "Docker", "SQLAlchemy", "BeautifulSoup"]},
+      {"category" : "Progamming Languages",
+      "skills" : ["C", "C++", "Python", "JavaScript", "SQL", "Java"]}
+    ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Telugu",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Hindi",
+      "fluency": "Intermediate proficiency"
+    },
+    {
+      "language": "French",
+      "fluency": "Basic proficiency"
+    }
+  ],
+  "interests": ["Video Games", "Anime", "Reading Non-fiction", "Classical and Original Soundtrack Music"],
+
+"vdata": [
+    {
+      "organization": "SRMIST",
+      "position": "National Service Scheme",
+      "location": "Chennai, TN",
+      "url": "https://example.com",
+      "startDate": "December 2021",
+      "endDate": "Junu 2022",
+      "highlights": [
+        "Organized and led community service initiatives, resulting in the successful implementation of various environmental and health awareness programs. Coordinated educational workshops for underprivileged children, enhancing their access to quality education."
+      ]
+    },
+    {
+      "organization": "IITM",
+      "position": "Paradox",
+      "location": " Chennai, TN",
+      "url": "",
+      "startDate": "May 2023",
+      "endDate": "",
+      "highlights": [
+        "Successfully spearheaded and hosted 'Paradox Fest,' a large-scale event at IITM, skillfully managing all facets of event planning, coordination, and execution. This festival drew significant participation and garnered widespread acclaim for its innovative content and impeccable organization."
+      ]
+    }
+  ]
+
+
+}

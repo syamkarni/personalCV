@@ -35,8 +35,9 @@
 #cvabout(cvdata)
 #cvwork(cvdata)
 #cveducation(cvdata)
-#cvaffiliations(cvdata)
+
 #cvprojects(cvdata)
 #cvskills(cvdata)
+#cvaffiliations(cvdata)
 #cvvdata(cvdata)
 #endnote()
