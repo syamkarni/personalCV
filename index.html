@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>Resume</title>
+        <style>
+            body, html {
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+            #container {
+                position: relative;
+                width: 100%;
+                height: 100%;
+            }
+            embed {
+                width: 100%;
+                height: 100%;
+            }
+            .download-button {
+                position: fixed; /* Fixed position */
+                bottom: 20px;
+                left: 50%;
+                transform: translateX(-50%);
+                background-color: #007bff; /* Blue */
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                text-decoration: none;
+                font-size: 16px;
+                cursor: pointer;
+            }
+            .download-button:hover {
+                background-color: #0056b3; /* Darker blue */
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+        <embed src="resume.pdf" type="application/pdf" width="100%" height="100%">
+            <br>
+        <a href="resume.pdf" download="downloaded_resume.pdf">
+            <button class="download-button">Download pdf</button>
+        </a>
+        </div>
+    </body>
+</html>

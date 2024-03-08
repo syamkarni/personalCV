@@ -274,15 +274,6 @@
 }
 
 
-
-
-
-
-
-
-
-
-
 #let endnote() = {
     place(
         bottom + right,
